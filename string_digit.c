@@ -2,6 +2,7 @@
 int string_digit(char *s);
 
 int main(void) {
+  /* main function checks different cases */
   int p;
   int q;
   int r;
@@ -20,6 +21,7 @@ int main(void) {
 
 
 int string_digit(char *s) {
+  /* checks if char is digit or not */
   int i;
   i = 0;
   while (s[i] != '\0') {
